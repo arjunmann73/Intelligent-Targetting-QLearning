@@ -8,7 +8,7 @@ shooting at an enemy. It is these video game targeting systems that this project
 upon. 
 
 # Creating Environment
-Blob class (blob.py) defines the environment. The environment consists of 3 blobs: Food (Green), User (Blue) and Enemy (Red). The goal state is when the user is able to reach the food blob. We utilise q learning to solve such a task. There are 4 defined actions in this environment, which are the diagonal direction movements.
+Blob class (blob.py) defines the environment. The environment consists of 3 blobs: Food (Green), User (Blue) and Enemy (Red). The goal state is when the user is able to reach the food blob. We utilise q learning to solve such a task. There are 4 defined actions in this environment, which are the diagonal direction movements. These directions can be thought of as the moves of a knight in chess.
 
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/env.png" width="400" height="400" />
 
