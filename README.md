@@ -8,7 +8,7 @@ shooting at an enemy. It is these video game targeting systems that this project
 upon. 
 
 # Creating Environment
-Blob class (blob.py) defines the environment. The environment consists of 3 blobs: Food (Green), User (Blue) and Enemy (Red). The goal state is when the user is able to reach the food blob. We utilise q learning to solve such a task. There are 4 defined actions in this environment, which are the diagonal direction movements.
+Blob class (blob.py) defines the environment. The environment consists of 3 blobs: Food (Green), User (Blue) and Enemy (Red). The goal state is when the user is able to reach the food blob. We utilise q learning to solve such a task. There are 4 defined actions in this environment, which are the diagonal direction movements. These directions can be thought of as the moves of a knight in chess.
 
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/env.png" width="400" height="400" />
 
@@ -18,5 +18,16 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 * Hitting the food blob: +25
 
 # Initial Simulations (First 4000-5000 episodes)
-![] (assets/10x10-initial.mp4)
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
+
+Not so great, let's train it more!
+
+# Well trained agent?: 75,000 simulations to learn.
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
+
+# Analysing
+
+Let us first look at the reward over a range of simulations. Note that in the graph, the episode (simulation) number ranges from 0 - 50000, because we use a pre-trained q table which was created from the first 25,000 simulations. Overall, this represents the reward mean average over 3000 episodes (simulations). 
+
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/75kepisodes.png" width="600" height="400" />
 
