@@ -23,7 +23,7 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 Not so great, let's train it more!
 
 # Well trained agent?: 75,000 simulations to learn.
-<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/finally.gif" width="400" height="400" />
 
 # Analysing
 
