@@ -18,5 +18,5 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 * Hitting the food blob: +25
 
 ## Initial Simulations (First 4000-5000 episodes)
-![](assets/initially.gif)
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
 
