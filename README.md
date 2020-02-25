@@ -13,6 +13,6 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/env.png" width="400" height="400" />
 
 # Rewards 
-1. Movement: -1
-2. Hitting the enemy blob: -300
-3. Hitting the food blob: +25
+* Movement: -1
+* Hitting the enemy blob: -300
+* Hitting the food blob: +25
