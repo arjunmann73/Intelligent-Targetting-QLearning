@@ -40,3 +40,6 @@ Before, only the user blob could move in different directions. Now, let us chang
 Analysing this with a graph, we see that the agent initially learns at a very good rate and then flatlines.
 
 <img src="https://github.com/arjunmann73/Intelligent-Targetting-QLearning/blob/master/50k_new.png" width="600" height="400" />
+
+# Tweaks for fun
+We can learn a lot about q-learning by tweaking with the parameters which we set, running more episodes and changing the environment itself. We can add new actions such as moving horizontally or vertically, add more enemies and create multiple food blobs and see how fast we can train agents for such environments. It would be interesting to see how DQN's can be used and how it performs for such an environment. 
