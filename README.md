@@ -1,5 +1,5 @@
 # Intelligent Targetting System
-Targeting system based on Q-Learning designed to focus on a specific object.  In the
+Targeting system based on Reinforcement Learning (Q-Learning to be more precise) designed to focus on a specific object.  In the
 video game world, targeting systems exist in order to aid the player during game play by
 putting the focus onto a specific object or enemy within the game. From there, it is much
 easier to interact with that object or enemy as the players focus stays on it despite what is
