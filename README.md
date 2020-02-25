@@ -25,5 +25,9 @@ Not so great, let's train it more!
 # Well trained agent?: 75,000 simulations to learn.
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
 
+# Analysing
 
+Let us first look at the reward over a range of simulations. Note that in the graph, the episode (simulation) number ranges from 0 - 50000, because we use a pre-trained q table which was created from the first 25,000 simulations. Overall, this represents the reward mean average over 3000 episodes (simulations). 
+
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="600" height="400" />
 
