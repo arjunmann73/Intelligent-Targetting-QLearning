@@ -9,3 +9,4 @@ upon.
 
 # Creating Environment
 Blob class (blob.py) defines the environment. The environment consists of 3 blobs: Food (Green), User (Blue) and Enemy (Red). The goal state is when the user is able to reach the food blob. We utilise q learning to solve such a task. There are 4 defined actions in this environment, which are the diagonal direction movements. 
+![](assets/env.jpg)
