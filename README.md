@@ -37,6 +37,6 @@ Before, only the user blob could move in different directions. Now, let us chang
 
 <img src="https://github.com/arjunmann73/Intelligent-Targetting-QLearning/blob/master/run.gif" width="600" height="400" />
 
-Analysing this with a graph, we see:
+Analysing this with a graph, we see that the agent initially learns at a very good rate and then flatlines.
 
 <img src="https://github.com/arjunmann73/Intelligent-Targetting-QLearning/blob/master/50k_new.png" width="600" height="400" />
