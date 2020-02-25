@@ -17,6 +17,6 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 * Hitting the enemy blob: -300
 * Hitting the food blob: +25
 
-# Initial Simulations (First 4000-5000 episodes)
+## Initial Simulations (First 4000-5000 episodes)
 ![](assets/initially.gif)
 
