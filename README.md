@@ -17,6 +17,13 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 * Hitting the enemy blob: -300
 * Hitting the food blob: +25
 
-## Initial Simulations (First 4000-5000 episodes)
+# Initial Simulations (First 4000-5000 episodes)
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
+
+Not so great, let's train it more!
+
+# Well trained agent?: 75,000 simulations to learn.
+<img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/initially.gif" width="400" height="400" />
+
+
 
