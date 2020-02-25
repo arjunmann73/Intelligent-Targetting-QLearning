@@ -31,3 +31,7 @@ Let us first look at the reward over a range of simulations. Note that in the gr
 
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/75kepisodes.png" width="600" height="400" />
 
+# Changing the environment
+
+Before, only the user blob could move in different directions. Now, let us change this by adding random movements to the food and enemy blobs as well. Let's see how our trained agent (using the 75k episode q-table) does in this environment, we will analyse using the mean average of 50,000 episodes. 
+
