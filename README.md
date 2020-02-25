@@ -22,7 +22,7 @@ Blob class (blob.py) defines the environment. The environment consists of 3 blob
 
 Not so great, let's train it more!
 
-# Well trained agent?: 75,000 simulations to learn.
+# Well trained agent?: 75,000 simulations to learn from.
 <img src="https://github.com/arjunmann73/intelligent-targetting-qlearning/blob/master/assets/finally.gif" width="400" height="400" />
 
 # Analysing
@@ -42,4 +42,4 @@ Analysing this with a graph, we see that the agent initially learns at a very go
 <img src="https://github.com/arjunmann73/Intelligent-Targetting-QLearning/blob/master/50k_new.png" width="600" height="400" />
 
 # Tweaks for fun
-We can learn a lot about q-learning by tweaking with the parameters which we set, running more episodes and changing the environment itself. We can add new actions such as moving horizontally or vertically, add more enemies and create multiple food blobs and see how fast we can train agents for such environments. It would be interesting to see how DQN's can be used and how it performs for such an environment. 
+We can learn a lot about q-learning by tweaking with the parameters (epsilon, epsilon_day, episodes, rewards etc.) which we set, running more episodes and changing the environment itself. We can add new actions such as moving horizontally or vertically, add more enemies and create multiple food blobs and see how fast we can train agents for such environments. It would be interesting to see how DQN's can be used and how it performs for such an environment. 
